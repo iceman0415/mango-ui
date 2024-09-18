@@ -21,7 +21,6 @@ export const handleCopyAddress = (
 ) => {
   copyToClipboard(mangoAccountAddress)
   notify({
-    title: successMessage,
     type: 'success',
   })
 }
