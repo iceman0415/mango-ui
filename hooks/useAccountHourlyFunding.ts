@@ -1,3 +1,4 @@
+import { useQuery } from '@tanstack/react-query'
 import useMangoAccount from './useMangoAccount'
 import { MANGO_DATA_API_URL } from 'utils/constants'
 import { HourlyFundingData, HourlyFundingStatsData } from 'types'
